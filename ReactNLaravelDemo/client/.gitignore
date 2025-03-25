@@ -1,24 +1,46 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+../.bash_history
+../.gitconfig
+../.lesshst
+../.packettracer
+../.ssh/
+../.vscode/
+../AppData/
+../Cisco Packet Tracer 7.3.0/
+../Contacts/
+../Desktop/
+../Documents/
+../Downloads/
+../Favorites/
+../IntelGraphicsProfiles/
+../Links/
+../Music/
+../NTUSER.DAT
+../NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf
+../NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms
+../NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms
+../OneDrive/
+../Pictures/
+../Saved Games/
+../Searches/
+../Sti_Trace.log
+../Videos/
+../WPS Cloud Files/
+../laravel_project/
+../node_modules/
+../ntuser.dat.LOG1
+../ntuser.dat.LOG2
+../ntuser.ini
+../package-lock.json
+../package.json
+../react-app/
+../vite-project/
