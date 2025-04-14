@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\GenderController;
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
@@ -16,7 +17,10 @@ Route::controller(GenderController::class)->group(function () {
 Route::controller(UserController::class)->group(function () {
     Route::get('/loadUsers', 'loadUsers');
     Route::post('/storeUser', 'storeUser');
+    Route::put('/updateUser/{user}', 'updateUser');
+    Route::put('/destroyUser/{user}', 'destroyUser');
 });
+
 
 // Route::get('/user', function (Request $request) {
 //     return $request->user();
